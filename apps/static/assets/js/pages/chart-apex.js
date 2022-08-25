@@ -16,7 +16,7 @@ setTimeout(function() {
             stroke: {
                 curve: 'straight',
             },
-            colors: ["#4099ff"],
+            colors: ["#2D4059"],
             fill: {
                 type: "gradient",
                 gradient: {
@@ -102,7 +102,7 @@ setTimeout(function() {
             dataLabels: {
                 enabled: false
             },
-            colors: ["#0e9e4a", "#4099ff", "#FF5370"],
+            colors: ["#0e9e4a", "#2D4059", "#FF5370"],
             stroke: {
                 show: true,
                 width: 2,
@@ -166,7 +166,7 @@ setTimeout(function() {
                     },
                 }
             },
-            colors: ["#4099ff", "#0e9e4a"],
+            colors: ["#2D4059", "#0e9e4a"],
             dataLabels: {
                 enabled: true,
                 offsetX: -6,
@@ -215,7 +215,7 @@ setTimeout(function() {
             },
             labels: ['Team A', 'Team B', 'Team C', 'Team D', 'Team E'],
             series: [44, 55, 13, 43, 22],
-            colors: ["#4099ff", "#0e9e4a", "#00bcd4", "#FFB64D", "#FF5370"],
+            colors: ["#2D4059", "#0e9e4a", "#00bcd4", "#FFB64D", "#FF5370"],
             legend: {
                 show: true,
                 position: 'bottom',
@@ -255,7 +255,7 @@ setTimeout(function() {
                 type: 'donut',
             },
             series: [44, 55, 41, 17, 15],
-            colors: ["#4099ff", "#0e9e4a", "#00bcd4", "#FFB64D", "#FF5370"],
+            colors: ["#2D4059", "#0e9e4a", "#00bcd4", "#FFB64D", "#FF5370"],
             fill: {
                 type: 'gradient',
                 gradient: {

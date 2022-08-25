@@ -7,6 +7,7 @@
 
 {% block content %}
 
+{% load static %}
 	<!-- [ auth-signup ] start -->
 	<div class="auth-wrapper">
 		<div class="auth-content">
@@ -14,9 +15,9 @@
 				<div class="row align-items-center text-center">
 					<div class="col-md-12">
 						<div class="card-body">
-							<img src="/static/assets/images/logo-dark.png" alt="" class="img-fluid mb-4">
+							<img src="{% static 'assets/images/logo-dark.png' %}" alt="" class="img-fluid mb-4">
 
-							<h4 class="mb-3 f-w-400">Sign UP</h4>
+							<h4 class="mb-3 f-w-400">Sign Up</h4>
 
 							<span class="mb-0 text-muted">
 								{% if msg %}
