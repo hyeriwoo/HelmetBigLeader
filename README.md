@@ -1,5 +1,7 @@
 # [Helmet BigLeader](helmet.bigleader.net) Django
 
+### 작동하지 않을 시 helmet.bigleader.net 으로 들어가시면 바로 확인이 가능합니다
+
 <br />
 
 ### 👉 Set Up for `Unix`, `MacOS` 
